@@ -1,7 +1,8 @@
 version: "3"
 services:
   nginx:
-    image: nginx:alpine
+    build: ./
+    image: nginx:alpine-module-echo
     container_name: my-nginx
     ports:
       - "80:80"
