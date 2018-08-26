@@ -12,6 +12,7 @@
 ## 测试location(www.site2.com)
 为了方便测试，安装了nginx echo module,可直接输出text到浏览器验证location命中情形
 demo:
-- http://www.site2.com/
-- http://www.site2.com/documents/
-- http://www.site2.com/images/
+- curl http://www.site2.com/
+- curl http://www.site2.com/documents/
+- curl http://www.site2.com/images/
+- etc...
